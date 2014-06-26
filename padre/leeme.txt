@@ -1,0 +1,11 @@
+me funciono solo corriendolo con jetty, en tomcat sale notclassfoundExcepcion con la clase hellowordl de la libreria
+
+en la carpeta pon padre 
+corres
+mvn -pl webapp jetty:run 
+
+
+libreria
+mvn archetype:generate -DgroupId=org.vmgs.com -DartifactId=libreria -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+proyecto web
+mvn archetype:generate -DgroupId=org.vmgs.com -DartifactId=webapp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
